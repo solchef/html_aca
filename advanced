@@ -1,0 +1,73 @@
+<footer class="footer">
+	<div class="row welcome-disclaimer">
+		<div class="col-lg-12">
+			<div class="site-social-icons">
+				<a href="https://www.facebook.com/groups/898188290357387/"><i class="fa-facebook"></i></a>
+				<a href="https://www.instagram.com/advancecryptoacademy/"><i class="fa-instagram"></i></a>
+				<a href="https://twitter.com/advancecrypto?lang=en"><i class="fa-twitter"></i></a>
+				<a href="mailto:support@cryptoacademy.com"><i class="fa-envelope"></i></a>
+			</div>
+			<h4 style="margin-bottom:10px; text-align:center"> No Investment Advice Provided</h4>
+			<p>AdvanceCryptoAcademy is not a trading platform. It is not a brokerage and it is not an exchange. Any opinions, chats, messages, news, research, analyses, prices, or other information contained on this website are provided as general market information for educational and entertainment purposes only and do not constitute investment advice. The website should not be relied upon as a substitute for an extensive independent market research before making your actual trading decisions. Opinions, market data, recommendations, or any other content is subject to change at any time without notice. AdvanceCryptoAcademy will not accept liability for any loss or damage, including without limitation any loss of profit, which may arise directly or indirectly from use of or reliance on such information. We do not recommend the use of technical analysis as the sole means of trading decisions. We do not recommend making hurried trading decisions. You should always understand that PAST PERFORMANCE IS NOT NECESSARILY INDICATIVE OF FUTURE RESULTS.</p>
+			<div class="row mt-4">
+				<div class="col-lg-12">
+					<p>Copyright © 2020 Advance Crypto Academy, All rights reserved. NK Distributions INC<br>
+						<a style="padding:10px" href="/privacy/">Privacy</a>  <a style="padding:10px" style="padding:10px" href="/terms/">Terms of Use</a>  <a style="padding:10px" href="/risk/">Risk Disclaimer<a> 
+						<a href="https://tawk.to/chat/5d1bac4c22d70e36c2a3d224/default/?$_tawk_popout=true" target="popup" style="padding:10px" onclick="window.open('https://tawk.to/chat/5d1bac4c22d70e36c2a3d224/default/?$_tawk_popout=true','popup','width=600,height=600'); return false;">Live Support</a>  
+						<a style="padding:10px" href="/">Home</a> 
+						<a style="padding:10px" href="/register?account=affiliate">Affiliate</a>
+						<a  style="padding:10px" href="#"  data-toggle="modal" data-target="#exampleModal">
+						  Support
+						</a>
+
+						<!-- Modal -->
+						<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						  <div class="modal-dialog" role="document">
+						     <div class="modal-content" style="    background-color: transparent">
+						     <div class="card bordertest mt-2 pb-3">
+									<div class="mb-1 p-3 d-flex cardhead">
+									<div class="align-self-center mr-auto">
+									<h2 class="card-title">SUPPORT</h2>
+									</div>
+									</div>
+									<div class="card-body">
+									<form method="post" action="{{url('sendmessage')}}">
+									{{ csrf_field() }}
+									<div class="form-group row">
+									<label class="col-3 col-form-label">Name</label>
+									<div class="col-9">
+									<input type="text" name="name" class="form-control" required >
+									</div>
+									</div>
+									<div class="form-group row">
+									<label class="col-3 col-form-label">Email</label>
+									<div class="col-9">
+									<input type="text" name="email" class="form-control" required>
+									</div>
+									</div>
+									<div class="form-group row" style="margin-bottom:20px">
+									<label class="col-3 col-form-label">Message</label>
+									<div class="col-9">
+									<textarea class="form-control" name="message" rows="8" required></textarea>			
+									</div>
+									</div>
+							    <button type="button" class="btn btn-lg ml-auto pt-3 pl-4 pr-4 pb-3 ml-3 btn-secondary paypal float-right" data-dismiss="modal">Close</button>
+						        <button type="submit" class="btn btn-lg ml-auto pt-3 pl-4 pr-4 pb-3 btn-success paypal float-right">Submit </button>
+						      </form>
+
+									</div>
+										</div>
+						     
+						    </div>
+						  </div>
+						</div>
+					</p>
+				</div>
+			</div>
+			<div class="row mt-3">
+				<img src="/images/welcome/secure.png" style="width:100%;max-width:600px;margin:auto">
+			</div>
+			
+		</div>
+	</div>
+</footer>
